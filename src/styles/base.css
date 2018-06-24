@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  padding-left: 256px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.sub-header {
+  background-color: rgb(0, 188, 212);
+  font-family: Roboto, sans-serif;
+  height: 20px;
+  color: white;
+}
+
+.sub-title {
+  font-size: 1em;
+  margin: 0px;
+}
+
+.toolbar-cardHeader{
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  text-align: right;
+}
+
+div.toolbar-cardHeader > div {
+  padding-right: 0px !important;
+}
+
+div.toolbar-cardHeader > div > span:nth-child(2) {
+  font-size: 9px !important;
+}
+
+.toolbar-userInfo {
+  font-family: Roboto, sans-serif;
+  padding: 15px;
+  font-size: 10px;
+}
+
+.toolbar-userInfo > div:first-child > span {
+  font-size: 15px;
+}
